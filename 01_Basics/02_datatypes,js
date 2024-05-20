@@ -1,0 +1,35 @@
+// datatypes in javascript 
+// there are two types in javasript primitive and non-primitive
+
+// primitive datatypes :- which are able to store single value.
+
+let name = "sarang"; // String
+
+let age = 24; // Number
+
+let isLearning = true; // Boolean
+
+let sarang; // Undefined
+
+let temprature = null; // null in js refer as object type
+
+let bigInt = 89.12; // if number is grater tha 53 it would be bigInt 
+
+// let student = {name:komal}; // uniq type value in js can be symbol.
+
+// Non-primitive datatypes
+
+//Objects and arrays which are able to store more than two values.
+//objects in js can store multiple key value 
+
+let studentInfo = {   
+    name:"sarang",
+    age: 24,
+    address:"pune",
+};
+
+// array are list of same values in javascript
+const cars = ["BMW","volvo","hundai","ferrari","lambo"];
+
+console.log(cars);
+
